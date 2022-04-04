@@ -25,7 +25,15 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <form action="backend/rollercoasterController.php" method="POST"></form>
+    <div class="form-group">
+      <label for="naam">Naam</label>
+      <input type="text" name="naam" id="naam">
+    </div>
+
+
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
