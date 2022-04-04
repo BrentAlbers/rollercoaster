@@ -15,7 +15,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <link> rel="favicon" href="img/favicon.ico">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -25,7 +25,10 @@
 <body>
 
   <!-- Add your site or application content here -->
+  <div class="form-group">
+  <img src="img/favicon.ico" alt="Start image">
   <p>Hello world! This is HTML5 Boilerplate.</p>
+  </div>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
