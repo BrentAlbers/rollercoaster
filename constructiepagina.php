@@ -15,39 +15,40 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-  <link rel="favicon" href="img/favicon.ico">
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <div class="form-group">
-  <img src="img/favicon.ico" alt="Start image">
-  <p>Wat maakt onze achtbanen nou zo speciaal? Het is vanwege onze 
-    eerste USP die wij voor deze achtbaan hebben ontwikkeld 
-    is een nieuwe metaal messing die nog nooit eerder in deze 
-    industrie gebruikt is. 
-    Door een menging te maken van 69% staal, 20% nikkel, 
-    en 11% koper  hebben een nieuwe messing ontwikkeld die wij nu 
-    MagnaAlloy noemen. Met deze nieuwe MagnaAlloy maken wij een aantal 
-    onderdelen die de meeste stress ondergaan in de achtbaan, 
-    waardoor deze nog meer G-krachten kunnen weerstaan, en langer 
-    meegaan dan andere stalen. We hebben enorm geprobeerd de kosten 
-    zo laag mogelijk te houden, dat de onderdelen gemiddeld slechts 
-    8% duurder uitvallen 
-    an andere soortgelijke onderdelen, zonder kwaliteitsverlies.
-    . Onze tests bewijzen ook dat de onderdelen tot 25% langer meegaan, 
-    dus dit zou uiteindelijk ook in kosten moeten besparen. Ook zorgt 
-    dit ervoor dat een aantal designs 
-    voor achtbanen die eerder niet mogelijk waren nu wel mogelijk zijn.
-    Dus maakt het ook plaats voor nieuwere ontwerpen die zeker de aandacht 
-    op uw pretpark houdt.
-  </p>
-  </div>
+  <?php
+  require_once('header.php'); 
+  ?>
+  
+  <main>
+    <div class="images">
+      <img src="img/construction1.png" alt="construction1" width=400px>
+      <img src="img/construction2.png" alt="construction2" width=200px>
+      <img src="img/metal.png" alt="metal" width=400px>
+      </div>
+    <div class="container">
+      <h2>De constructie</h2>
+        <p>Wat maakt ons nieuwe type achtbaan zo speciaal? Het komt allemaal door de nieuwe messing die wij gebruiken. Door een menging te maken van 69% staal, 20% nikkel, 
+      en 11% koper krijg je een achtbaan die op een heel ander niveau zit. De karretjes gaan sneller, de consturctie is sterker en er zitten een hoop voordelen bij. 
+      De constructie heeft namelijk weinig onderhoud nodig ten opzichte van andere mengsels, de kwaliteit blijft lang goed. Onze tests bewijzen ook dat de onderdelen tot 25% langer meegaan, dit bespaart een hoop kosten. Omdat het materiaal zo sterk is zijn er mogelijkheden om achtbaan designs te maken die je jezelf niet eens kunt voorstellen. Het opent de deuren naar een nieuw tijdperk in de achtbaanindustrie.</p>
+    </div>
+
+  </main>
+
+  <?php
+  require_once('footer.php'); 
+  ?>
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>

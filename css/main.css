@@ -142,6 +142,61 @@ footer nav a {
     margin: 0 auto;
     margin-bottom: 2%;
 }
+/*------------karretjes-------------------*/
+.images{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+`/*------------constructie.php----------------*/
+
+
+/*-------------------contactformulier---------------------*/
+form { max-width:420px; margin:50px auto; }
+
+form input{
+  border-style: none;
+}
+
+.form-group{
+  color: #001053;
+  font-weight:500;
+  font-size: 20px;
+  border-radius: 6px;
+  line-height: 24px;
+  background-color: #ffff66;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+  border-style: none;
+}
+
+[type="submit"] {
+  width: 100%;
+  background: #001053;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:12px;
+  padding-bottom:12px;
+  margin-top:-4px;
+  font-weight:600;
+}
+[type="submit"]:hover { background: green; }
 
 /* ==========================================================================
    Helper classes
